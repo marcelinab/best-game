@@ -42,9 +42,9 @@
         }
         tick() {
             if (this.target > this.x)
-                this.x += 2
+                this.x += 7
             if (this.target < this.x)
-                this.x -= 2
+                this.x -= 7
         }
     }
     window.setTimeout(function () {
